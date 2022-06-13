@@ -3,10 +3,11 @@ import React from "react";
 const Login = () => {
   return (
     <div>
+      login
       <form>
         <input data-cy="login-email" />
         <input data-cy="login-password" />
-        <button data-cy="login-submit" type="submit"></button>
+        <button data-cy="login-submit" type="submit">Login</button>
       </form>
     </div>
   );
